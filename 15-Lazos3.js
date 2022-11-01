@@ -20,9 +20,8 @@ const datos = [
 ]
 const presupuesto = 400;
 
-//DO WHILE
+//FOR
 let ciudadSeleccionada = '';
-/**/
 for (let i = 0; i < datos.length && ciudadSeleccionada == ''; i++){
     if(datos[i].precio <= presupuesto){
         ciudadSeleccionada = datos[i].ciudad;
