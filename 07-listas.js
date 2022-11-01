@@ -28,3 +28,13 @@ console.log(paisesDisponibles);
     console.log(ciudadesDisponibles);
     console.log(paisesDisponibles);
 }
+
+//De esta manera podemos ver que elemento hay en el array en la posicion pedida
+
+console.log(ciudadesDisponibles[0]);
+console.log(paisesDisponibles[0]);
+
+//Borrar elementos e incluir nuevos en la misma posicion
+
+paisesDisponibles.splice(2,3, "Venezuela", "Ecuador");
+console.log(paisesDisponibles);
